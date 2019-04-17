@@ -47,19 +47,22 @@ actions:
         in: requestBody
         required: true
         help: The template of email
-    output:   
+    output:
       type: object
       contentType: application/json
       properties:
-        success:
-          help: Returns true or false.
+        email:
+          help: The receiver email address.
           type: string
-        message:
-          help: Success message or error message if occurred.
+        status:
+          help: The status of email.
           type: string
-        status_code:
-          help: Http status code.
-          type: int
+        id:
+          help: The ID of send mail operation.
+          type: string
+        reject_reason:
+          help: The reason for operation rejection.
+          type: string
 environment:
   API_KEY:
     type: string
