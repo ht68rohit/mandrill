@@ -2,6 +2,8 @@
 An OMG service for Mandrill, is a powerful delivery service that can be used for personalized, one-to-one e-commerce emails, and automated transactional emails like password resets, order confirmations, and welcome messages.
 
 [![Open Microservice Guide](https://img.shields.io/badge/OMG-enabled-brightgreen.svg?style=for-the-badge)](https://microservice.guide)
+[![Build Status](https://travis-ci.com/heaptracetechnology/microservice-mandrill.svg?branch=master)](https://travis-ci.com/heaptracetechnology/microservice-mandrill)
+[![codecov](https://codecov.io/gh/heaptracetechnology/microservice-mandrill/branch/master/graph/badge.svg)](https://codecov.io/gh/heaptracetechnology/microservice-mandrill)
 
 ## [OMG](hhttps://microservice.guide) CLI
 
