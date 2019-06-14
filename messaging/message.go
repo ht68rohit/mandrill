@@ -14,7 +14,7 @@ type Email struct {
 	Message      string `json:"message,omitempty"`
 	From         string `json:"from,omitempty"`
 	To           string `json:"to,omitempty"`
-	TemplateName string `json:"template_name,omitempty"`
+	TemplateName string `json:"templateName,omitempty"`
 }
 
 //Send Email
